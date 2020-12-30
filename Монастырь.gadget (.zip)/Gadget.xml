@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>Монастырь</name>
+  <namespace>Aleks.Gadgets</namespace>
+  <version>1.0</version>
+  <author name="Пацуков Алексей">
+    <logo src="images/logo.png"/>
+    <info url="svirskoe.ru"/>
+  </author>
+  <copyright>© с 2014 - и до бесконечности.</copyright>
+  <description>Свято-Троицкий Александра Свирского Мужской Монастырь</description>
+  <icons>
+    <icon width="64" height="64" src="images/logo.png"/>
+  </icons>
+  <hosts>
+    <host name="true">
+      <base type="HTML" apiVersion="1.0.0" src="gadget.html"/>
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0"/>
+      <defaultImage src="images/logo.png"/>
+    </host>
+  </hosts>
+</gadget>
